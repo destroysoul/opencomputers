@@ -1,6 +1,9 @@
 local component = require('component')
+local term = require('term')
 local radar = component.radar
 local gpu = component.gpu
 
-gpu.setResolution(80,25)
---local players = radar.getPlayers()
+local players = radar.getPlayers()
+
+term.clear()
+
