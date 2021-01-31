@@ -2,6 +2,7 @@ local component = require('component')
 local term = require('term')
 local radar = component.radar
 local gpu = component.gpu
+floor = math.floor
 
 color = {
 	green = 0x00ff00,
